@@ -21,8 +21,20 @@
 #define UNUSABLE_PINS \
     { GP1, GP3, GP4, GP6, GP8, GP10, GP14, GP16, GP18, GP20, GP22, GP24, GP25, GP26, GP27, GP28, GP29 }
 
+// https://blog.ryanheisler.com/blog/ploopy-adept/customize-ploopy-adept.html
 // #define ROTATIONAL_TRANSFORM_ANGLE 0
-#define POINTING_DEVICE_INVERT_Y
+// #define POINTING_DEVICE_INVERT_Y
+#define POINTING_DEVICE_INVERT_X
+#define PLOOPY_DRAGSCROLL_INVERT
+
+#define POINTING_DEVICE_HIRES_SCROLL_ENABLE 0
+#define POINTING_DEVICE_HIRES_SCROLL_MULTIPLIER 15
+
+// https://blog.ploopy.co/high-resolution-scrolling-for-the-adept-257
+#define PLOOPY_DRAGSCROLL_MOMENTARY
+#define PLOOPY_DRAGSCROLL_DIVISOR_H 4.0
+#define PLOOPY_DRAGSCROLL_DIVISOR_V 4.0
+#define PLOOPY_DRAGSCROLL_INVERT
 
 /* PMW3360 Settings */
 #define PMW33XX_LIFTOFF_DISTANCE 0x00
