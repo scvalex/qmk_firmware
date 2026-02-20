@@ -22,5 +22,5 @@
 
 // The buttons are from left-to-right, top-to-bottom in the normal orientation.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT(MS_BTN3, MS_BTN4, DRAG_SCROLL, MS_BTN1, MS_BTN2, MS_BTN5 )
+    [0] = LAYOUT(MS_BTN3, MS_BTN4, DRAG_SCROLL, MS_BTN1, MS_BTN2, DPI_CONFIG)
 };

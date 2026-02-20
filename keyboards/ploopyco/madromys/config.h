@@ -37,7 +37,7 @@
 #define PLOOPY_DRAGSCROLL_INVERT
 
 // Slow down!
-#define PLOOPY_DPI_OPTIONS { 1000, 1600, 2400 }
+#define PLOOPY_DPI_OPTIONS { 1200, 1600, 2400 }
 #define PLOOPY_DPI_DEFAULT 0
 
 /* PMW3360 Settings */
